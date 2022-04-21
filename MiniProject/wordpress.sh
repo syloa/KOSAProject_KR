@@ -11,10 +11,6 @@ sleep 3
 
 yum install -y wget
 
-yum install -y git
-
-git clone https://github.com/S2Domingo/KOSAEducation.git
-
 yum install -y httpd php php-mysql php-gd php-mbstring wget unzip 
 
 echo "-----------------------------------------------------------------"
