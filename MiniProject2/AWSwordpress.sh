@@ -28,8 +28,6 @@ sudo unzip wordpress-6.0.zip
 
 sudo mv ~/wordpress/* /var/www/html/
 
-sudo mv wordpress/* /var/www/html/
-
 sudo chown -R apache.apache /var/www/html/
 
 sudo systemctl restart httpd
