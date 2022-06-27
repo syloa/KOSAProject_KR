@@ -10,7 +10,7 @@ echo "-----------------------------------------------------------------"
 
 sed -i 's/^SELINUX=enforcing$/SELINUX=disabled/' /etc/selinux/config
 
-sentenforce 0 
+setenforce 0 
 
 sudo amazon-linux-extras enable php7.4
 
